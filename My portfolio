@@ -1,168 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DAMODHARAN S M | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- AOS Animation Library CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a2f0f6fd3e.js" crossorigin="anonymous"></script>
+<!-- AOS Animation Library CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<!-- Hamburger Icon -->
+<div class="hamburger" onclick="toggleSidebar()">
+  &#9776;
+  
+</div>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm [Your Name], a passionate developer.</p>
-        <a href="#projects" class="btn">View My Work</a>
-    </section>
+<!-- Sidebar Navigation -->
+  <header>
+    <h1>DAMODHARAN S M</h1>
+    <nav>
+      <a href="#about">About |</a>
+      <a href="#skills">Skills |</a>
+      <a href="#projects">Projects |</a>
+      <a href="#resume">Resume |</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <!-- About Me Section -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>I'm an aspiring developer with a passion for building creative and efficient solutions.</p>
-    </section>
+    <section id="about" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+  <h2>About Me</h2>
+  EmbeddedSystems Enthusiast | IOT Innovator | Aspiring PCB Designer</p>
+</section>
+    <p>
+      I'm an ECE student passionate about IoT, Embedded Systems, and AI-powered projects. 
+      I enjoy creating smart gadgets and aim to work in a top tech company. 
+      My work bridges hardware and software, blending creativity with real-world functionality. 
+      I love collaborating on innovative solutions and believe in lifelong learning.
+    </p>
+  </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="project-item">
-            <h3>Project 1</h3>
-            <p>A brief description of your project.</p>
-        </div>
-        <div class="project-item">
-            <h3>Project 2</h3>
-            <p>A brief description of your project.</p>
-        </div>
-    </section>
+ <section id="skills" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+  </ul>
+</section>
+    <h2>Skills</h2>
+    <ul>
+    <li>Embedded C / Arduino</li>
+    <li>Python & AI</li>
+      <li>Embedded C / Arduino Programming</li>
+      <li>IoT Development (ESP32, Raspberry Pi)</li>
+      <li>Python & AI Integration</li>
+      <li>PCB Design (EasyEDA, Altium)</li>
+      <li>Web Development (HTML, CSS, JS)</li>
+    </ul>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-    </section>
+  <section id="projects" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1200">
+  <h2>Projects</h2>
+  ...
 
-    <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
-    </footer>
+  <div class="projects-container">
+    <div class="project-card">
+       <a class="project-card" href="https://github.com/dhamu-m/vocalSync" target="_blank" rel="noopener noreferrer">
+      <h3>VocalSync</h3>
+      <p>I develop a AI voice Assistent Using Python With the Features of smart Voice Recognition with Noice Cancellation.</p>
+    </a>
+    </div>
+
+    <div class="project-card">
+      <a class="project-card" href="https://github.com/RobTillaart/ACS712" target="_blank" rel="noopener noreferrer">
+      <h3>Smart Home Electricity Consumption And Pridection</h3>
+      <p>Using Rasbperry pi and Home Assistent I develop a Electricity Cosumption and Predection in Smart home.</p>
+    </a>
+    </div>
+
+    <div class="project-card">
+       <a class="project-card" href="https://github.com/dhamu-m/Dhamu-portfolio-" target="_blank" rel="noopener noreferrer">
+      <h3>3D Portfolio</h3>
+      <p>I created a 3D Portfolio Using Slice and Visual studio code.</p>
+    </a>
+    </div>
+  </div>
+</section>
+
+
+ <section id="resume" data-aos="fade-up">
+
+    <p><a href="<section id="resume">
+  <h2>Resume</h2>
+  <p><a href="<section id="resume">
+ <p>Download my latest resume <a href="file:///C:/Users/Dhamotharan/Downloads/dhamu%20IT%20resume%202.pdf" target="_blank">here</a>.</p>
+</section>
+</a></p>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+  <h2>Contact</h2>
+  <p><i class="fas fa-envelope"></i>  <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Gmail.com</a></p>
+  <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/damodharan-s-m-0540a9264" target="_blank">LinkedIn Profile</a></p>
+  <p><i class="fab fa-github"></i> <a href="https://github.com/dhamu-m" target="_blank">GitHub Profile</a></p>
+  <p><i class="fab fa-github"></i> <a href= (+919342969965) target="_blank">Contact</a></p>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 DAMODHARAN S M. All rights reserved.</p>
+  </footer>
+<!-- AOS Animation Library Script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // animation duration in ms
+    once: true      // play animation once
+  });
+  <!-- AOS Animation Library JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetID = this.getAttribute('href').substring(1);
+      document.getElementById(targetID).scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+  <script>
+  // Get the button
+  const backToTopBtn = document.getElementById('backToTop');
+
+  // Show button after scrolling down 100px
+  window.onscroll = () => {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  };
+
+  // Scroll smoothly to top when clicked
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+<!-- AOS Animation Library JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+<!-- Smooth Scroll & Back To Top Button -->
+<script>
+  // Smooth scroll for navbar links
+  document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetID = this.getAttribute('href').substring(1);
+      document.getElementById(targetID).scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  // Back to Top button behavior
+  const backToTopBtn = document.getElementById('backToTop');
+
+  window.onscroll = () => {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      backToTopBtn.style.display = "block";
+    } else {
+      backToTopBtn.style.display = "none";
+    }
+  };
+
+  backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  
+</script>
 </body>
 </html>
-
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-}
-
-/* Header */
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-header ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-header ul li {
-    display: inline;
-}
-
-header ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1rem;
-}
-
-header ul li a:hover {
-    color: #00bcd4;
-}
-
-/* Hero Section */
-.hero {
-    background: url('images/hero.jpg') no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.hero .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    background: #00bcd4;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-
-.hero .btn:hover {
-    background: #008c9e;
-}
-
-/* Sections */
-section {
-    padding: 20px;
-    text-align: center;
-}
-
-.about, .contact {
-    background: #fff;
-}
-
-.projects {
-    background: #e0e0e0;
-}
-
-.project-item {
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Footer */
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
